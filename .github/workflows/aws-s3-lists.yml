@@ -12,12 +12,7 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: eu-west-1
-      - uses: DamianReeves/write-file-action@master
-        with: 
-          path: test/testing/tekst.txt
-          write-mode: append
-          contents: |
-            aws s3 ls
+      - run: aws s3 ls > kakeman.txt
       - name: Commit & Push
         uses: Andro999b/push@v1.3
         with:
