@@ -1,0 +1,7 @@
+2023-09-18 18:58:09 244530008913-serlverless-deployment-bucket
+2023-09-12 09:22:37 aws-sam-cli-managed-default-samclisourcebucket-1efay15ackhi9
+2023-08-24 05:52:19 aws-sam-cli-managed-default-samclisourcebucket-pmwwgbzgw6qt
+2023-09-14 12:37:12 dnb-training-glenn-2
+2023-08-23 23:48:28 lambda-bucket-grb
+2023-08-24 11:23:26 lambda-deployments-gb
+2023-09-26 04:57:36 pgr301-2021-terraform-state
