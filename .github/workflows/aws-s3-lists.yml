@@ -15,6 +15,6 @@ jobs:
       - uses: DamianReeves/write-file-action@master
         with: 
           path: test/testing/tekst.txt
-          write-mode: overwrite
+          write-mode: append
           contents: |
             aws s3 ls
